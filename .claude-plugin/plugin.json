@@ -1,0 +1,14 @@
+{
+  "name": "standup",
+  "version": "0.1.0",
+  "displayName": "Standup",
+  "description": "Summarizes what you did since your last workday, from git, GitHub, Linear and your Claude Code sessions, ready to say at standup",
+  "author": {
+    "name": "Mikael John Andersson",
+    "url": "https://github.com/MikaelJohnAndersson"
+  },
+  "homepage": "https://github.com/MikaelJohnAndersson/standup-plugin",
+  "repository": "https://github.com/MikaelJohnAndersson/standup-plugin",
+  "license": "MIT",
+  "keywords": ["standup", "summary", "git", "github", "linear", "daily"]
+}

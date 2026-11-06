@@ -1,0 +1,10 @@
+{
+  "name": "standup-plugin",
+  "owner": {
+    "name": "Mikael John Andersson",
+    "url": "https://github.com/MikaelJohnAndersson"
+  },
+  "plugins": [
+    { "name": "standup", "source": "./" }
+  ]
+}
