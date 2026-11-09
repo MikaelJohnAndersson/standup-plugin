@@ -1,6 +1,6 @@
 # Standup
 
-A [Claude Code](https://code.claude.com) plugin that tells you what you did yesterday. `/standup:summarize` gathers your commits, pull requests, Linear tickets and Claude Code sessions since your last workday, and turns them into a short **Done / Today / To raise** list to say at standup.
+A [Claude Code](https://code.claude.com) plugin that tells you what you did yesterday. `/standup:summarize` gathers your commits, pull requests, Linear tickets and Claude Code sessions since your last workday, and turns them into a short **What I did / What I'll do today / Blockers** list to say at standup. Afterwards it offers to clear the notes you raised.
 
 ## Install
 
@@ -29,7 +29,7 @@ A repo is included when its `origin` belongs to one of your chosen GitHub owners
 ## Where it looks
 
 - **Git:** your commits on any branch, in the included repos
-- **GitHub:** your PRs, and others' you reviewed or commented on, updated in the period (needs `gh`)
+- **GitHub:** your PRs updated in the period, and your own reviews, comments and pushes in the period, from your GitHub events (needs `gh`)
 - **Linear:** issues assigned to you and the tickets mentioned anywhere above (needs the Linear MCP; skipped without it)
 - **Claude Code sessions:** a log written as you work (below)
 - **Notes:** what you saved with `/standup:note`
