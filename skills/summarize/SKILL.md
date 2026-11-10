@@ -13,9 +13,11 @@ argument-hint: "[YYYY-MM-DD to start from instead of the last workday]"
 
 2. If Linear tools are connected, look up in one parallel batch the issues assigned to the user and updated in the period, and the ticket IDs that appear in branch names, commits, PR titles and prompts (for example `TC-1036`), for their titles and status. Skip this step without comment if there are no Linear tools.
 
-3. Write the summary from that material only; never fill gaps with guesses. Use exactly these three headings, in this order, and nothing else; keep it short enough to say aloud in a minute:
+3. Write the summary from that material only; never fill gaps with guesses. Use exactly these three headings, in this order, and nothing else; keep it short enough to say aloud in a minute.
 
-   - **What I did**: one line per ticket or topic, merging the commits, PRs, reviews and sessions that belong together. Include reviews from "What you did on GitHub" (approved, commented, changes requested) and anything that moved your own PRs forward, such as replying to review. Leave out "Others you reviewed or commented on earlier": that activity is older than the period.
+   Under each heading, group items by logical topic, such as a project, a feature or "Reviews", not by ticket. Each top-level bullet says what the topic is in plain words, with no ticket IDs or PR numbers, so it can be read out as is. Put the details under it as short sub-bullets, one per piece of work, each carrying its ticket and PR links.
+
+   - **What I did**: merge the commits, PRs, reviews and sessions that belong together. Include reviews from "What you did on GitHub" (approved, commented, changes requested) and anything that moved your own PRs forward, such as replying to review. Leave out "Others you reviewed or commented on earlier": that activity is older than the period.
    - **What I'll do today**: the likely next steps, from open PRs, in-progress tickets, unfinished sessions and saved notes. These are suggestions.
    - **Blockers**: what waits on someone else, such as reviews, approvals or decisions. Write "None" if there are none.
 
