@@ -17,7 +17,7 @@ A [Claude Code](https://code.claude.com) plugin that tells you what you did yest
 | Command | What it does |
 | --- | --- |
 | `/standup:summarize [YYYY-MM-DD]` | Summarizes everything since the last workday (Friday on a Monday), or since the given date |
-| `/standup:note <text>` | Saves something to raise next time; with no text lists the notes, `clear` clears them |
+| `/standup:note <text>` | Saves something to raise next time; "note the above" saves a summary of the current session. With no text lists the notes, `clear` clears them |
 | `/standup:config [change]` | Shows the config and the repos it includes, or changes it, such as "exclude ~/Documents/www/old-api" |
 | `/standup:setup [folder]` | Picks the repos, author emails and Linear workspace |
 | `/standup:clear [all]` | Shows what's stored and deletes it once you confirm; `all` deletes the config too |
