@@ -29,7 +29,7 @@ A repo is included when its `origin` belongs to one of your chosen GitHub owners
 ## Where it looks
 
 - **Git:** your commits on any branch, in the included repos
-- **GitHub:** your PRs updated in the period, and your own reviews, comments and pushes in the period, from your GitHub events (needs `gh`)
+- **GitHub:** your PRs updated in the period, and your own reviews, comments and pushes in the period, from the chosen orgs' GitHub events (needs `gh`; GitHub serves the last 300 events per org, so a long period in a busy org can be cut off, and the summary says so)
 - **Linear:** issues assigned to you and the tickets mentioned anywhere above (needs the Linear MCP; skipped without it)
 - **Claude Code sessions:** a log written as you work (below)
 - **Notes:** what you saved with `/standup:note`

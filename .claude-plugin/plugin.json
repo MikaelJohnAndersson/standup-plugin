@@ -1,6 +1,6 @@
 {
   "name": "standup",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "displayName": "Standup",
   "description": "Summarizes what you did since your last workday, from git, GitHub, Linear and your Claude Code sessions, ready to say at standup",
   "author": {
